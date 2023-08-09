@@ -1,18 +1,18 @@
-.main{
-    background-image: url(https://images.unsplash.com/photo-1572414323397-e7918784a4b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3Vid2F5JTIwc3RhdGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60) ;
+.main {
+    background-image: url(https://images.unsplash.com/photo-1572414323397-e7918784a4b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3Vid2F5JTIwc3RhdGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
     text-align: center;
-    background-size: cover ;
+    background-size: cover;
     font-weight: bold;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.h1{
+.h1 {
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #ffe4e6 ;
+    color: #ffe4e6;
 }
 
-.h2{
+.h2 {
     margin-top: 0px;
     margin-bottom: 20px;
     font-size: 50px;
