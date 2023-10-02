@@ -30,3 +30,15 @@
     background: darkred;
     width: 200px;
 }
+
+#save-btn{
+    border: none;;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffe4e6;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background: green;
+    width: 200px;
+}
