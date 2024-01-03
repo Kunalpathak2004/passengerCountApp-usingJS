@@ -5,6 +5,8 @@ var count = 0;
 var countEl = document.getElementById("count-el");
 //console.log(countEl);
 
+let saveEl = document.getElementById("save-el");
+
 function increment() {
      count = count + 1;
      console.log(count);
@@ -12,7 +14,8 @@ function increment() {
 }
 
 function save() {
-     count = count + 1;
+     var string = count + " - ";
+     saveEl.innerText += string;
      console.log(count);
-     document.getElementById("save-btn").innerText = count;
+
 }
