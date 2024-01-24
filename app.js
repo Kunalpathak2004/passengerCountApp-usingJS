@@ -1,4 +1,3 @@
-//document.getElementById("count-el").innerText=5;
 
 var count = 0;
 
@@ -10,12 +9,13 @@ let saveEl = document.getElementById("save-el");
 function increment() {
      count = count + 1;
      console.log(count);
-     countEl.innerText = count;
+     countEl.textContent = count;
 }
 
 function save() {
      var string = count + " - ";
-     saveEl.innerText += string;
+     saveEl.textContent += string;
      console.log(count);
-
+     countEl.textContent = 0;
+     count = 0;
 }
